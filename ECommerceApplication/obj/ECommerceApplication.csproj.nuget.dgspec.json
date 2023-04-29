@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ganeshlamichanne/Projects/ECommerceApplication/ECommerceApplication/ECommerceApplication.csproj": {}
+    "/Users/ganeshlamichanne/Desktop/dot net/e-commerce-application-dotnet-core/ECommerceApplication/ECommerceApplication.csproj": {}
   },
   "projects": {
-    "/Users/ganeshlamichanne/Projects/ECommerceApplication/ECommerceApplication/ECommerceApplication.csproj": {
+    "/Users/ganeshlamichanne/Desktop/dot net/e-commerce-application-dotnet-core/ECommerceApplication/ECommerceApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ganeshlamichanne/Projects/ECommerceApplication/ECommerceApplication/ECommerceApplication.csproj",
+        "projectUniqueName": "/Users/ganeshlamichanne/Desktop/dot net/e-commerce-application-dotnet-core/ECommerceApplication/ECommerceApplication.csproj",
         "projectName": "ECommerceApplication",
-        "projectPath": "/Users/ganeshlamichanne/Projects/ECommerceApplication/ECommerceApplication/ECommerceApplication.csproj",
+        "projectPath": "/Users/ganeshlamichanne/Desktop/dot net/e-commerce-application-dotnet-core/ECommerceApplication/ECommerceApplication.csproj",
         "packagesPath": "/Users/ganeshlamichanne/.nuget/packages/",
-        "outputPath": "/Users/ganeshlamichanne/Projects/ECommerceApplication/ECommerceApplication/obj/",
+        "outputPath": "/Users/ganeshlamichanne/Desktop/dot net/e-commerce-application-dotnet-core/ECommerceApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ganeshlamichanne/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

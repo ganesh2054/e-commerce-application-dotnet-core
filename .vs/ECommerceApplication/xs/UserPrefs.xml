@@ -1,4 +1,31 @@
 ﻿<Properties StartupConfiguration="{14A47812-34C7-4282-B8CE-976206B3CFCF}|Default">
-  <MonoDevelop.Ide.ItemProperties.ECommerceApplication FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECommerceApplication/Program.cs">
+    <Files>
+      <File FileName="ECommerceApplication/Models/Product.cs" Line="15" Column="23" />
+      <File FileName="ECommerceApplication/Data/ApplicationDbContext.cs" Line="12" Column="19" />
+      <File FileName="ECommerceApplication/appsettings.json" Line="10" Column="25" />
+      <File FileName="ECommerceApplication/Program.cs" Line="10" Column="90" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECommerceApplication" expanded="True">
+            <Node name="ECommerceApplication" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ECommerceApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
